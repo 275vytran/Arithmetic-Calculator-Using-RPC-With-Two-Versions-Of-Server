@@ -6,11 +6,14 @@ The calculating server will provide the service procedures addition(+), subtract
 
 To compile: 
 
-   cc -o client.c
+   rpcgen calculator.x
 
-   cc -o server.c
+   cc -o client client.c calculator_clnt.c
+   
+   cc -o server server.c calculator_svc.c
 
 To run the program:
+
    On server terminal: ./server
    
    On client terminal: ./client IPAddress
