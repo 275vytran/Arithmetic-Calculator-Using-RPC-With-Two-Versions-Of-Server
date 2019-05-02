@@ -1,4 +1,4 @@
-# Arithmetic Calculator Using RPC With Two Versions Of Server
+# Arithmetic Calculator Using RPC With Two Versions Of The Same Server
 
 Author: Vy Tran and Rasmi Wagle
 
